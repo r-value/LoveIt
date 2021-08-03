@@ -1,6 +1,24 @@
 @import "../_partial/_single/toc";
 
 .single {
+  .covered:hover {
+    background: black;
+    color: white !important;
+  }
+  
+  .covered {
+    background: black;
+    color: black !important;
+  }
+  
+  .invisible {
+    color: rgba(233,233,233,0.1) !important;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
   .single-title {
     margin: 1rem 0 .5rem;
     font-size: 1.6rem;
