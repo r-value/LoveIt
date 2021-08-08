@@ -1,3 +1,10 @@
+# 000: Home
+home:
+  Weight: 0
+  Title: Home Index
+  Icon:
+    Class: fas fa-home fa-fw
+
 # 001: Github
 github:
   Weight: 1
