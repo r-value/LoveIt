@@ -231,6 +231,10 @@
     img {
       max-width: 100%;
       min-height: 1em;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
     }
 
     figure {
