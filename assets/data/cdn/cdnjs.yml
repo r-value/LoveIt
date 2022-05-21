@@ -25,18 +25,18 @@ libFiles:
   lightgalleryThumbnailJS: lightgallery/2.4.0/plugins/thumbnail/lg-thumbnail.min.js
   lightgalleryZoomJS: lightgallery/2.4.0/plugins/zoom/lg-zoom.min.js
   # clipboard.js@2.0.11 https://github.com/zenorocha/clipboard.js
-  clipboardJS: clipboard/2.0.11/clipboard.min.js
+  clipboardJS: clipboard.js/2.0.11/clipboard.min.js
   # sharer.js@0.5.1 https://github.com/ellisonleao/sharer.js
   sharerJS: sharer.js/0.5.1/sharer.min.js
   # typeit@8.5.4 https://github.com/alexmacarthur/typeit
   typeitJS: typeit/8.5.4/index.umd.min.js
   # katex@0.15.3 https://katex.org/
-  katexCSS: katex/0.15.3/katex.min.css
-  katexJS: katex/0.15.3/katex.min.js
-  katexAutoRenderJS: katex/0.15.3/contrib/auto-render.min.js
-  katexCopyTexCSS: katex/0.15.3/contrib/copy-tex.min.css
-  katexCopyTexJS: katex/0.15.3/contrib/copy-tex.min.js
-  katexMhchemJS: katex/0.15.3/contrib/mhchem.min.js
+  katexCSS: KaTeX/0.15.3/katex.min.css
+  katexJS: KaTeX/0.15.3/katex.min.js
+  katexAutoRenderJS: KaTeX/0.15.3/contrib/auto-render.min.js
+  katexCopyTexCSS: KaTeX/0.15.3/contrib/copy-tex.min.css
+  katexCopyTexJS: KaTeX/0.15.3/contrib/copy-tex.min.js
+  katexMhchemJS: KaTeX/0.15.3/contrib/mhchem.min.js
   # mermaid@9.1.0 https://github.com/mermaid-js/mermaid
   mermaidJS: mermaid/9.1.0/mermaid.min.js
   # echarts@5.3.2 https://echarts.apache.org/
@@ -55,5 +55,5 @@ libFiles:
   # valine@1.4.18 https://valine.js.org/
   valineJS: valine/1.4.18/Valine.min.js
   # cookieconsent@3.1.1 https://github.com/osano/cookieconsent
-  cookieconsentCSS: cookieconsent/3.1.1/build/cookieconsent.min.css
-  cookieconsentJS: cookieconsent/3.1.1/build/cookieconsent.min.js
+  cookieconsentCSS: cookieconsent/3.1.1/cookieconsent.min.css
+  cookieconsentJS: cookieconsent/3.1.1/cookieconsent.min.js
