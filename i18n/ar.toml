@@ -1,4 +1,5 @@
 # Translations for Arabic
+# ترجمات للغة العربية
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
@@ -51,13 +52,16 @@ other = "يعمل الموقع بنظام {{ .Hugo }} | التصميم مقدم 
 
 # === partials/comment.html ===
 [valineLang]
-other = "ar"
+other = "en"
 
 [valinePlaceholder]
 other = "تعليقك..."
 
 [facebookLanguageCode]
 other = "ar_AR"
+
+[giscusLang]
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
