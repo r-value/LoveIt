@@ -5,20 +5,20 @@
     background: #161209;
     color: #ddd !important;
   }
-  
+
   .covered {
     background: #161209;
     color: #161209 !important;
   }
-  
+
   .invisible {
-    color: rgba(233,233,233,0.1) !important;
+    color: rgba(233, 233, 233, 0.1) !important;
   }
-  
+
   .hidden {
     display: none;
   }
-  
+
   .single-title {
     margin: 2rem 0 .5rem;
     font-size: 1.6rem;
@@ -69,7 +69,7 @@
   }
 
   .content {
-    > h2 {
+    >h2 {
       font-size: 1.5rem;
 
       & code {
@@ -77,7 +77,7 @@
       }
     }
 
-    > h3 {
+    >h3 {
       font-size: 1.375rem;
 
       & code {
@@ -85,7 +85,7 @@
       }
     }
 
-    > h4 {
+    >h4 {
       font-size: 1.25rem;
 
       & code {
@@ -93,11 +93,11 @@
       }
     }
 
-    > h5 {
+    >h5 {
       font-size: 1.125rem;
     }
 
-    > h6 {
+    >h6 {
       font-size: 1rem;
     }
 
@@ -114,12 +114,12 @@
       }
     }
 
-    > h2,
-    > h3,
-    > h4,
-    > h5,
-    > h6 {
-      > .header-mark::before {
+    >h2,
+    >h3,
+    >h4,
+    >h5,
+    >h6 {
+      >.header-mark::before {
         content: "|";
         margin-right: .3125rem;
         color: $single-link-color;
@@ -130,7 +130,7 @@
       }
     }
 
-    > h2 > .header-mark::before {
+    >h2>.header-mark::before {
       content: "#";
     }
 
@@ -138,7 +138,8 @@
       margin: .5rem 0;
     }
 
-    b, strong {
+    b,
+    strong {
       font-weight: bold;
 
       [theme=dark] & {
@@ -151,16 +152,19 @@
     a {
       @include overflow-wrap(break-word);
 
-      [theme=dark] & b, [theme=dark] & strong {
+      [theme=dark] & b,
+      [theme=dark] & strong {
         color: $single-link-color-dark;
       }
     }
 
-    [theme=dark] a:hover b, [theme=dark] a:hover strong {
+    [theme=dark] a:hover b,
+    [theme=dark] a:hover strong {
       color: $single-link-hover-color-dark;
     }
 
-    ul, ol {
+    ul,
+    ol {
       margin: .5rem 0;
       padding-left: 2.5rem;
     }
@@ -196,7 +200,7 @@
         }
       }
 
-      > table {
+      >table {
         width: 100%;
         max-width: 100%;
         margin: .625rem 0;
@@ -216,7 +220,8 @@
           }
         }
 
-        th, td {
+        th,
+        td {
           padding: .3rem 1rem;
           border: 1px solid darken($table-thead-color, 2%);
 
@@ -230,6 +235,9 @@
     img {
       max-width: 100%;
       min-height: 1em;
+    }
+
+    img:not(.u-photo) {
       display: block;
       height: auto;
       margin: 0 auto;
@@ -331,6 +339,7 @@
 
     .person-mention.h-card {
       display: inline-block;
+
       img {
         vertical-align: -12%;
         max-height: 1.1em;
